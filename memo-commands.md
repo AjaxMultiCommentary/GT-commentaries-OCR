@@ -28,3 +28,10 @@ Lobeck:
 ```bash
 python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile bsb10234118/bsb10234118_training.tsv --imageDir /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/lobeck/images/bsb10234118-images/ --outputDir bsb10234118/pairs/
 ```
+
+Wecklein:
+
+
+```bash
+python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile Wecklein1894/Wecklein1894_training.tsv --imageDir /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/wecklein/images/Wecklein1894-images/ --outputDir Wecklein1894/pairs/
+```
