@@ -35,3 +35,17 @@ Wecklein:
 ```bash
 python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile Wecklein1894/Wecklein1894_training.tsv --imageDir /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/wecklein/images/Wecklein1894-images/ --outputDir Wecklein1894/pairs/
 ```
+
+# Commands to copy images
+
+Schneidewin: 
+
+```bash
+cat sophokle1v3soph_training.tsv | cut -f 1 | uniq | while read i; do cp /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/schneidewin/images/sophokle1v3soph-images/$i . ; done
+```
+
+# Commands to count GT lines in evaluation set
+
+```bash
+egrep -i '(0012|0017|0085|0081|0125|0048|0049|0140)' sophokle1v3soph_training.tsv | wc -l
+```
