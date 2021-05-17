@@ -20,7 +20,11 @@ python python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile cu31924
 Jebb:
 
 ```bash
-python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile sophoclesplaysa05campgoog/sophoclesplaysa05campgoog_training.tsv --imageDir /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/jebb/images/sophoclesplaysa05campgoog_png/ --outputDir sophoclesplaysa05campgoog/pairs/
+python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile sophoclesplaysa05campgoog/sophoclesplaysa05campgoog_training.tsv --imageDir /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/jebb/images/sophoclesplaysa05campgoog_png/ --outputDir sophoclesplaysa05campgoog/GT-pairs/
+```
+
+```bash
+python ~/Documents/Lace2-tools/training_set_from_tsv.py --csvFile sophoclesplaysa05campgoog/sophoclesplaysa05campgoog_training_FROM-SVEN-LOCAL.tsv --imageDir /Volumes/GoogleDrive/.shortcut-targets-by-id/12W80v9RNL9hQvtqnATpvd2zdMvuySsn4/AjaxMultiCommentary/data/commentary_data/jebb/images/sophoclesplaysa05campgoog_png/ --outputDir sophoclesplaysa05campgoog/GT-pairs/
 ```
 
 Lobeck:
