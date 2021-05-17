@@ -1,1 +1,1 @@
-609 I1 is strange that exception
+560 It is strange that exception
