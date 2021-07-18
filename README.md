@@ -12,6 +12,23 @@ GT4HistComment are contained in `data/`, where each sub-folder corresponds to a 
 
 The OCR output produced by the Kraken + Ciaconna pipeline was manually corrected by a pool of annotators using the [Lace platform](https://github.com/brobertson/Lace2/). In order to ensure the quality of the ground truth datasets, an additional verification of all transcriptions made in Lace was carried out by an annotator on line-by-line pairs of image and corresponding text.
 
+## Counts
+
+Line, word and char counts for each commentary are indicated in the following table. Detailled counts for each region can be found [here](https://docs.google.com/spreadsheets/d/1BxtB38WbB1fFplp5mVncfHPH77Z5Z3dZT_0akFTxr0E/edit?usp=sharing).
+
+| type        | Commentary  | id                        | Languages      | year | lines | words | all chars | greek chars|
+|-------------|-------------|---------------------------|----------------|------|-------|-------|-------|-------|
+| groundtruth | campbell    | cu31924087948174          | Greek, English | 1881 | 464   | 2987  | 14291 | 3566  |
+| groundtruth | jebb        | sophoclesplaysa05campgoog | Greek, English | 1896 | 324   | 2418  | 10986 | 2805  |
+| groundtruth | lobeck      | bsb10234118               | Greek, Latin   | 1835 | 202   | 1491  | 7917  | 2786  |
+| groundtruth | schneidewin | sophokle1v3soph           | Greek, German  | 1853 | 382   | 1599  | 8436  | 2191  |
+| groundtruth | wecklein    | Wecklein1894              | Greek, German  | 1894 | 211   | 1912  | 9556  | 3268  |
+| training    | lobeck      | bsb10234118               | Greek, Latin   | 1835 | 574   | 2943  | 16081 | 5344  |
+| training    | Schneidewin | sophokle1v3soph           | Greek, German  | 1853 | 583   | 2970  | 16112 | 3269  |
+| training    | jebb        | sophoclesplaysa05campgoog | Greek, English | 1896 | 561   | 4102  | 19141 | 5314  |
+
+
+
 ## Commentary overview
 
 
