@@ -1,5 +1,6 @@
 # OCR Ground Truth for Historical Commentaries
 
+[![DOI](https://zenodo.org/badge/365153616.svg)](https://zenodo.org/badge/latestdoi/365153616)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 The dataset OCR ground truth for historical commentaries (GT4HistComment) was created from the public domain subset of scholarly commentaries on Sophocles' *Ajax*. Its main goal is to enable the evaluation of the OCR quality on printed materials that contain a mix of Latin and polytonic Greek scripts. It consists of five 19C commentaries written in German, English, and Latin, for a total of 3,356 GT lines.
