@@ -9,23 +9,9 @@ The dataset OCR ground truth for historical commentaries (GT4HistComment) was cr
 GT4HistComment are contained in `data/`, where each sub-folder corresponds to a different publication (i.e. commentary). For each each commentary we provide the following data:
 - `<commentary_id>/GT-pairs`: pairs of image/text files for each GT line
 - `<commentary_id>/imgs`: original images on which the OCR was performed
+- `<commentary_id>/<commentary_id>_olr.tsv`: OLR annotations with image region coordinates and layout type ground truth label
 
 The OCR output produced by the Kraken + Ciaconna pipeline was manually corrected by a pool of annotators using the [Lace platform](https://github.com/brobertson/Lace2/). In order to ensure the quality of the ground truth datasets, an additional verification of all transcriptions made in Lace was carried out by an annotator on line-by-line pairs of image and corresponding text.
-
-## Counts
-
-Line, word and char counts for each commentary are indicated in the following table. Detailled counts for each region can be found [here](https://docs.google.com/spreadsheets/d/1BxtB38WbB1fFplp5mVncfHPH77Z5Z3dZT_0akFTxr0E/edit?usp=sharing).
-
-| type        | Commentary  | id                        | Languages      | year | lines | words | all chars | greek chars|
-|-------------|-------------|---------------------------|----------------|------|-------|-------|-------|-------|
-| groundtruth | campbell    | cu31924087948174          | Greek, English | 1881 | 464   | 2987  | 14291 | 3566  |
-| groundtruth | jebb        | sophoclesplaysa05campgoog | Greek, English | 1896 | 324   | 2418  | 10986 | 2805  |
-| groundtruth | lobeck      | bsb10234118               | Greek, Latin   | 1835 | 202   | 1491  | 7917  | 2786  |
-| groundtruth | schneidewin | sophokle1v3soph           | Greek, German  | 1853 | 382   | 1599  | 8436  | 2191  |
-| groundtruth | wecklein    | Wecklein1894              | Greek, German  | 1894 | 211   | 1912  | 9556  | 3268  |
-| training    | lobeck      | bsb10234118               | Greek, Latin   | 1835 | 574   | 2943  | 16081 | 5344  |
-| training    | Schneidewin | sophokle1v3soph           | Greek, German  | 1853 | 583   | 2970  | 16112 | 3269  |
-| training    | jebb        | sophoclesplaysa05campgoog | Greek, English | 1896 | 561   | 4102  | 19141 | 5314  |
 
 
 
@@ -39,6 +25,21 @@ Line, word and char counts for each commentary are indicated in the following ta
 | [cu31924087948174](./data/cu31924087948174/) | Campbell [3]    | 1881  | Greek, English | [Internet Archive]( https://archive.org/details/cu31924087948174) | ![](data/cu31924087948174/GT-pairs/cu31924087948174_0063_70.png) |
 | [sophoclesplaysa05campgoog](./data/sophoclesplaysa05campgoog/) |Jebb [4] | 1896  | Greek, English | [Internet Archive](https://archive.org/details/sophoclesplaysa05campgoog) | ![](data/sophoclesplaysa05campgoog/GT-pairs/sophoclesplaysa05campgoog_0136_55.png) |
 | [Wecklein1894](data/Wecklein1894/)  | Wecklein [5]  | 1894 [5] | Greek. German | internal | ![](data/Wecklein1894/GT-pairs/Wecklein1894_0087_6.png) |  
+
+## Stats
+
+Line, word and char counts for each commentary are indicated in the following table. Detailled counts for each region can be found [here](https://docs.google.com/spreadsheets/d/1BxtB38WbB1fFplp5mVncfHPH77Z5Z3dZT_0akFTxr0E/edit?usp=sharing).
+
+| ID  | Commentator | Type | lines | words | all chars | greek chars|
+|-------------|-------------|---------------------------|----------------|------|-------|-------|
+| bsb10234118 | Lobeck | training |   574   | 2943  | 16081 | 5344  |
+| bsb10234118 | Lobeck | groundtruth | 202   | 1491  | 7917  | 2786  |
+| sophokle1v3soph | Schneidewin | training |   583   | 2970  | 16112 | 3269  |
+| sophokle1v3soph | Schneidewin |   groundtruth        |  382   | 1599  | 8436  | 2191  |
+| cu31924087948174 | Campbell    | groundtruth          | 464   | 2987  | 14291 | 3566  |
+| sophoclesplaysa05campgoog| Jebb        | training |   561   | 4102  | 19141 | 5314  |
+| sophoclesplaysa05campgoog | Jebb | groundtruth | 324   | 2418  | 10986 | 2805  |
+| Wecklein1894 | Wecklein | groundtruth |  211   | 1912  | 9556  | 3268  |
 
 ### Commentary editions used:
 
