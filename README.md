@@ -49,6 +49,22 @@ Line, word and char counts for each commentary are indicated in the following ta
 - [4] Wecklein, Nikolaus. 1894. *Sophokleus Aias*. München: Lindauer.
 - [5] Jebb, Richard Claverhouse. 1896. *Sophocles: The Plays and Fragments*. London: Cambridge University Press.
 
+## Citation
+
+If you use this dataset in your research, please cite the following publication:
+
+```latex
+@inproceedings{romanello_optical_2021,
+  title = {Optical {{Character Recognition}} of 19th {{Century Classical Commentaries}}: The {{Current State}} of {{Affairs}}},
+  booktitle = {The 6th {{International Workshop}} on {{Historical Document Imaging}} and {{Processing}} ({{HIP}} '21)},
+  author = {Romanello, Matteo and Sven, Najem-Meyer and Robertson, Bruce},
+  year = {2021},
+  publisher = {{Association for Computing Machinery}},
+  address = {{Lausanne}},
+  doi = {10.1145/3476887.3476911}
+}
+```
+
 ## Acknowledgements
 
 Data in this repository were produced in the context of the Ajax Multi-Commentary project, funded by the Swiss National Science Foundation under an Ambizione grant [PZ00P1\_186033](http://p3.snf.ch/project-186033).
